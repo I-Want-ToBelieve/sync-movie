@@ -5,8 +5,8 @@ const App = new Vue({
     socket: null,
     player: null,
     goEasyConnect: null,
-    videoList: [],
-    videoSrc: 'http://192.168.3.58:8088/movie/Better.Call.Saul.S05E08.mp4',
+    videoList: ['https://cloud189-shzh-gz-person.oos-gdsz.ctyunapi.cn/8eee2ba1-7811-476c-a0c8-08eb969742ce?response-content-disposition=attachment%3Bfilename%3D%22æçå¤©æå¥³åS01E01.mp4%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=CORP&x-amz-CLIENTTYPEIN=UNKNOWN&Signature=tfkq0AkCngZP/dnEMMuM3EmIut4%3D&AWSAccessKeyId=18bd696e8df5d7a48893&Expires=1612890581&x-amz-limitrate=102400&response-content-type=video/mp4&x-amz-FSIZE=852159740&x-amz-UID=2512194266080&x-amz-UFID=51360310901228307'],
+    videoSrc: 'https://cloud189-shzh-gz-person.oos-gdsz.ctyunapi.cn/8eee2ba1-7811-476c-a0c8-08eb969742ce?response-content-disposition=attachment%3Bfilename%3D%22æçå¤©æå¥³åS01E01.mp4%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=CORP&x-amz-CLIENTTYPEIN=UNKNOWN&Signature=tfkq0AkCngZP/dnEMMuM3EmIut4%3D&AWSAccessKeyId=18bd696e8df5d7a48893&Expires=1612890581&x-amz-limitrate=102400&response-content-type=video/mp4&x-amz-FSIZE=852159740&x-amz-UID=2512194266080&x-amz-UFID=51360310901228307',
     playing: false,
     controlParam: {
       user: '',
